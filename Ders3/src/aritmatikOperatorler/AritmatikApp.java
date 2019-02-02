@@ -29,5 +29,34 @@ public class AritmatikApp
         sonuc = a%b;
         System.out.println("Sayının kalanını hesaplamak: "+sonuc);
 
+
+        a=a+b;
+        System.out.println("Normal atama: "+a);
+
+        a=7;
+        a+=b;
+        System.out.println("Aritmatik atama: "+a);
+
+        a=7;
+        a=a-b;
+        System.out.println("Normal atama: "+a);
+
+        a=7;
+        a-=b;
+        System.out.println("Aritmatik atama: "+a);
+
+        a=7;
+        a*=b;
+        System.out.println("Aritmatik atama: "+a);
+
+        a=7;
+        a%=b;
+        System.out.println("Aritmatik atama: "+a);
+
+        a=7;
+        a/=b;
+        System.out.println("Aritmatik atama: "+a);
+
+
     }
 }
