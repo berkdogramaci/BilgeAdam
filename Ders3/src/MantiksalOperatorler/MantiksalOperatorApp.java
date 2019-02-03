@@ -24,7 +24,7 @@ public class MantiksalOperatorApp
 
         /*
          <var1> ^ <var2> xor işareti ya da işleminin tersi.
-         Sağındaki ve solundaki değerler true ise "true" değerini döndürür.
+         Sağındaki ve solundaki değerler aynı ise false döndürür, diğer durumlarda "true" değerini döndürür.
          */
 
         boolean x=true, y=false, z=true, t=false, sonuc;
